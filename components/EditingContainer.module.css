@@ -1,0 +1,41 @@
+.masterContainer {
+    width: 100%;
+    background-color: #F8F7FC;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+    justify-content: center;
+}
+
+.masterContainer textarea {
+    border: none;
+    background-color: transparent;
+    resize: vertical;
+    height: 80%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.masterContainer textarea::-webkit-scrollbar {
+    width: 6px;
+}
+
+.masterContainer textarea::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.masterContainer textarea:focus {
+    outline: none;
+}
+
+.superContainer {
+    width: 100%;
+    height: 75%;
+    margin-top: 1rem;
+}
+
+.textContent {
+    width: 95%;
+}

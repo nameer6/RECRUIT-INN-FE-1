@@ -1,0 +1,157 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;600;800&family=Poppins:wght@100;200;300;500&display=swap');
+body{  margin: 0;
+  padding: 0;
+  font-family: "Poppins",sans-serif;
+}
+@layer utilities {
+  .btn-gradient {
+    background-image: linear-gradient(to right, theme('colors.btnPurple'), theme('colors.lightPurple'));
+  }
+} */
+.btn-gradient {
+  background-image: linear-gradient(to right, theme('colors.btnPurple'), theme('colors.lightPurple'));
+}
+.blurred-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(15px);
+}
+.fade-border-b {
+  position: relative;
+  border-bottom: 0.5px solid transparent;
+}
+.fade-border-b::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background: linear-gradient(to left, transparent, theme("colors.themePurple") , transparent);
+}
+.fade-right-border {
+  position: relative;
+  border-right: 0.5px solid transparent;
+}
+.fade-right-border::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, transparent, theme('colors.themePurple'), transparent);
+}
+.background-gradient {
+  z-index: 1;
+  border: 2px solid transparent;
+  background-image: linear-gradient(to bottom, theme('colors.elementGradOne'), theme('colors.elementGradTwo'), theme('colors.elementGradOne')),
+                    linear-gradient(to right, theme('colors.somePurple'), theme('colors.themePurple') );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  -webkit-background-clip: content-box, border-box;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, theme('colors.somePurple'), theme('colors.themePurple'));
+}
+.payment-pro-gradient{
+  background-image:linear-gradient(to bottom, theme('colors.elementGradOne') , transparent)
+  , linear-gradient(to bottom right,theme('colors.elementGradOne'),theme('colors.darkPurple'),theme('colors.elementGradOne'));
+}
+.payment-enterprise-gradient{
+  background-image:linear-gradient(to bottom, transparent ,theme('colors.elementGradOne'))
+  , linear-gradient(to bottom right,theme('colors.elementGradOne'),theme('colors.elementGradOne'),theme('colors.goldenShade'));
+}
+.right-dv-gradient{
+  background-image: linear-gradient(to bottom, transparent, theme('colors.elementGradOne'))
+  ,linear-gradient(to bottom right, theme('colors.darkPurple'), theme('colors.elementGradOne')) ;
+  border-image-source: linear-gradient(to right, theme('colors.somePurple'), theme('colors.themePurple'));
+}
+.fourth-sec-gradient{
+  background-image: linear-gradient(to bottom, transparent, theme('colors.elementGradOne')),
+   linear-gradient(to right , theme('colors.elementGradOne'),theme('colors.darkPurple'),theme('colors.elementGradOne'));
+}
+.recruit-inns-way-grad{
+  background-image: linear-gradient(to bottom, transparent, theme('colors.elementGradOne')),
+   linear-gradient(to right ,theme('colors.elementGradOne'), theme('colors.darkPurple'),theme('colors.elementGradOne'),theme('colors.darkPurple'));
+}
+.cards-gradient{
+  background-image: linear-gradient(to bottom, transparent, theme('colors.smallDiv')),
+   linear-gradient(to right , theme('colors.smallDiv'),theme('colors.darkPurple'),theme('colors.darkPurple'),theme('colors.elementGradOne'));
+}
+.gradient-text{
+  background: linear-gradient(to right, white, theme('colors.darkPurple'));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.golden-gradient-text{
+  background: linear-gradient(to right, white, theme('colors.goldenShade'));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.recruitinn-div-grad{
+  background-image: linear-gradient(to bottom, transparent, theme('colors.elementGradOne')),
+   linear-gradient(to right ,theme('colors.darkPurple'),theme('colors.darkPurple'), theme('colors.goldenShade'),theme('colors.darkPurple'),theme('colors.darkPurple'));
+}
+.btn-golden{
+  background: linear-gradient(to right, theme('colors.darkGolden'), theme('colors.goldenShade'));
+}
+@media (max-width: 768px) {
+  .fade-right-border {
+      border: none;
+      border-right: none; /* Remove the border */
+      background-image: none; /* Remove the gradient */
+      /* Reset any other styling as needed */
+  }
+}
+.glowing-border-element {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+.pricing
+.glowing-border-element::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  animation: borderAnimation 8s infinite linear;
+}
+@keyframes borderAnimation {
+  0%, 100% {
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+  25% {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 2px;
+  }
+  50% {
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    width: 100%;
+  }
+  75% {
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 2px;
+  }
+}

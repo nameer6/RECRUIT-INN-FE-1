@@ -1,0 +1,26 @@
+.superContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    height: 60%;
+    width: 30%;
+    justify-content: center;
+}
+
+.loginContainer input{
+    height: 10%;
+    width: 90%;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 0 1rem;
+}

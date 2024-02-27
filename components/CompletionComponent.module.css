@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Poppins:wght@500&display=swap');
+
+.container{
+    width: 50%;
+    height: 60%;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins',sans-serif;
+}
+
+.topContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topContainer h3{
+    margin: 0;
+}
+
+.topContainer p{
+    margin-top: 0;
+}
+
+.feedbackContainer{
+    height: 25%;
+    width: 95%;
+    border-radius: 30px;
+    background-color: #EBEBEB;
+    overflow: hidden;
+}
+
+.feedbackContainer textarea{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 1.5rem;
+    overflow-y: scroll;
+    font-family: 'Poppins',sans-serif;
+}
+
+.feedbackContainer textarea:focus{
+    outline: none;
+}
+
+.lowerContainer{
+    width:95%;
+    display: flex;
+    align-items: center ;
+    justify-content: flex-end;
+    height: 20%;
+}
+
+.lowerContainer button{
+    width: 20%;
+    height: 60%;
+    color: #fff;
+    background-color: #6137DB;
+    border-radius: 30px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}

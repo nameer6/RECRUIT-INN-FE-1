@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Poppins:wght@500&display=swap');
+
+.searchBar {
+    background-color: #F8F7FC;
+    width: 100%;
+    margin: 1rem 0 ;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.masterContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    gap: 1rem;
+}
+
+.masterContainer button {
+    background-color: #F8F7FC;
+    color: #6137DB;
+    border: none;
+    height: 63%;
+    border-radius: 30px;
+    width: 20%;
+    font-family: "Poppins",sans-serif;
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+}
+
+.container{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container input{
+    content: attr(value);
+    border: none;
+    background-color: transparent;
+    color: #170D23;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.btnsDiv{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1rem;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.addJobBtn{
+    border: none;
+    background-color: #6137DB;
+    height: 100%;
+    padding: 0 2rem; 
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.notificationsBtn{
+    border: none;
+    background-color: #F8F7FC;
+    height: 100%;
+    padding: 0 2rem; 
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.searchInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Poppins',sans-serif;
+}
+
+.searchInput input{
+    font-family: 'Poppins',sans-serif;
+}
+
+.searchInput input:focus{
+    outline: none;
+}
+
+.searchResults {
+    width: 60%;
+    position: absolute;
+    background-color: #ffffff; /* or any color that suits your design */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+    width: 100%; /* or the width of the search bar */
+    border-radius: 4px; /* optional, for rounded corners */
+    z-index: 1000; /* make sure it stacks above other content */
+    max-height: 300px; /* maximum height before scrolling */
+    overflow-y: auto; /* allows scrolling */
+    top: 10%; /* position right below the search bar */
+  }
+  
+  .searchResults ul {
+    list-style: none; /* removes bullets from list */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .searchResults li {
+    padding: 10px 15px; /* decent padding around text */
+    cursor: pointer; /* indicates the item is clickable */
+    border-bottom: 1px solid #f0f0f0; /* subtle separator */
+  }
+  
+  .searchResults li:hover {
+    background-color: #f7f7f7; /* highlight on hover */
+  }
+
+.selectCategory select{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #170D23;
+    padding: 1rem;
+    font-family: 'Poppins',sans-serif;
+}
+
+.selectCategory select input{
+    color: #170D23;
+}
+
+.selectCategory select:focus{
+    outline: none;
+}

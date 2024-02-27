@@ -1,0 +1,47 @@
+.superContainer {
+    width: 60%;
+    height: 50%;
+}
+
+.infoFieldContainers {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.infoField {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F8F7FA;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    gap: 1rem;
+    border: 1px solid #EBEBEB;
+}
+
+.jobDescription {
+    border: 1px solid #EBEBEB;
+    background-color: #F8F7FA;
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.jobDescription h4 {
+    margin-top: 0;
+}
+
+.jobDescription::-webkit-scrollbar {
+    width: 6px;
+}
+
+.jobDescription::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+#gap{
+    padding-bottom: 1rem;
+}

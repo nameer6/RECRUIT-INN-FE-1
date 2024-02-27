@@ -1,0 +1,93 @@
+
+.clientReq{
+    padding: 1rem 0rem;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topContainer{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.companyName h2{
+    margin: 0;
+}
+
+.leftDiv img {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    background-color: #F8F7FA;
+}
+
+.btnsDiv{
+    display: flex;
+    gap: 1rem;
+}
+
+#reject{
+    border: none;
+    background-color: #FFE6E6;
+    padding: 0.35rem 1rem;
+    border-radius: 30px;
+    color: #FF0000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.15rem;
+}
+
+#accept{
+    border: none;
+    background-color: #F0EDFC;
+    padding: 0.35rem 1rem;
+    border-radius: 30px;
+    font-family: 'Poppins',sans-serif;
+    color: #6137DB;
+    font-size: 1.15rem; 
+}
+
+.lowerContainer {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 95%;
+    height: 20% ;
+}
+
+.lowerContainer span{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dot::before {
+    content: ''; 
+    display: block; 
+    width: 10px; 
+    height: 10px; 
+    background-color: #B0B6BF; 
+    border-radius: 50%; 
+}
+
+
+
+.lowerContainer::after {
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}

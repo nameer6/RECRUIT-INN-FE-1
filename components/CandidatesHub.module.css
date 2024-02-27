@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Poppins:wght@500&display=swap');
+
+
+.parentContainer {
+    width: 98.75%;
+    background-color: #F8F7FA;
+    height: 87%;
+    border-radius: 20px;
+    margin: 1rem 0;
+    margin-top: 0;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.superContainer {
+    width: 96%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.headingContainer span {
+    background-color: #F0EDFC;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.headingContainer select{
+    background-color: #F0EDFC;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+}
+
+.headingContainer select:focus{
+    outline: none;
+}
+
+.headingContainer h3 {
+    margin: 1rem 0 1rem 0;
+}
+
+
+.superContainer {
+    width: 97%;
+    font-family: "Poppins", sans-serif;
+}
+
+.superContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.superContainer::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.headingContainer span {
+    background-color: #F0EDFC;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.candidatesCard {
+    background-color: #fff;
+    height: 22%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topContainer {
+    display: flex;
+    width: 95%;
+    height: 28%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topContainer h3 {
+    margin: 0;
+}
+
+.rightTopBtns {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.rightTopBtns span {
+    color: #6137DB;
+    font-weight: 700;
+}
+
+
+.rightTopBtns img {
+    background-color: #F8F7FC;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tempContainer {
+    min-height: 40rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempContainer img {
+    padding-top: 1rem;
+}
+
+.TechStack {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.TechStack ul {
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+    list-style: none;
+    gap: 2rem;
+    padding: 0;
+}
+
+.TechStack ul li {
+    background-color: #F8F7FC;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#unique {
+    background-color: #2BA977;
+    border-radius: 50%;
+}
+
+.lowerContainer {
+    /* margin: 1rem; */
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowerContainer h4 {
+    margin: 0;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: #E7FFE0;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+
+.superContainer {
+    width: 97%;
+    height: 100%;
+    background-color: #F8F7FC;
+    font-family: "Poppins",sans-serif;
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.headingContainer span {
+    background-color: #F0EDFC;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+}
+    
+
+.reportsCard {
+    padding: 1rem 0rem;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftTop {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1rem;
+}
+
+.leftTop span {
+    font-size: 0.75rem;
+}
+
+.leftTop img {
+    background-color: #F8F7FC;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.basicInfo h4 {
+    margin: 0;
+}
+
+.topContainer {
+    width: 92%;
+}
+
+.rightTop {
+    display: flex;
+    gap: 0.5rem;
+    
+}
+
+.rightTop span {
+    background-color: #E7FFE0;
+    padding: 0 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rightTop img{
+    background-color: #F8F7FC;
+    border-radius: 50%;
+}
+
+.django{
+    background-color: #2BA977;
+    border-radius: 50%;
+}
+
+.techStack{
+    width: 92%;
+    margin-top: 1rem;
+    font-family: "Poppins",sans-serif;
+}
+
+.techStack ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.techStack ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F7FC;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+}
+
+.techStack ul li p {
+    margin: 0;
+}
+
+.basic{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center ;
+}
+
+
+.reportsCardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.jobsCard {
+    background-color: #fff;
+    height: 22%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topContainer {
+    display: flex;
+    width: 95%;
+    height: 28%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topContainer h3 {
+    margin: 0;
+}
+
+.rightTopBtns {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.rightTopBtns span {
+    color: #6137DB;
+    font-weight: 700;
+}
+
+
+.rightTopBtns img {
+    background-color: #F8F7FC;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.TechStack {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.TechStack ul {
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+    list-style: none;
+    gap: 2rem;
+    padding: 0;
+}
+
+.TechStack ul li {
+    background-color: #F8F7FC;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.jobType{
+    display: flex;
+    align-items: center;
+    color :#6137DB;
+    gap: 0.5rem;
+}
+
+.lowerContainer span{
+    display: flex;
+    gap: 0.5rem;
+}

@@ -1,0 +1,50 @@
+.coverContainer{
+    width: 60%;
+    height: 50%;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+    background-color: #F8F7FA ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    width: 70%;
+    text-align: center;
+}
+
+.banner p{
+    width: 70%;
+    text-align: center;
+}
+
+.banner span{
+    font-weight: 700;
+}
+
+.imageDiv{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.imageDiv img{
+    border-radius: 0 0 20px 0;
+}
+
+.leftContainer{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:10rem;
+}

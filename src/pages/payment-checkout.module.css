@@ -1,0 +1,310 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Add any other styles you need */
+  }
+  
+  .center h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 10px; /* Add this to remove margin below h1 */
+  }
+  
+  .center p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 0; /* Add this to remove margin above p */
+    color: #4A525D;
+  }
+  
+  .pricing_container {
+    width: 90%;
+    max-width: 1170px;
+  }
+  
+  .pricing_container.full-width {
+      width: 100%;
+      max-width: none;
+  }
+  
+  .pricing_switcher {
+    text-align: center;
+  }
+  
+  .pricing_switcher .fieldset {
+    display: inline-block;
+    position: relative;
+    border-radius: 50em;
+    background-color: #F8F7FA;
+    border: 1px solid black;
+  }
+  
+  .pricing_switcher input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .pricing_switcher label {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    float: left;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .pricing_switcher .switch {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 40px;
+    width: 90px;
+    background-color: #6137DB;
+    border-radius: 50em;
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    transition: transform 0.5s;
+  }
+  
+  .pricing_switcher input[type="radio"]:checked + label + .switch,
+  .pricing_switcher input[type="radio"]:checked + label:nth-of-type(n) + .switch {
+    -webkit-transform: translateX(90px);
+    -moz-transform: translateX(90px);
+    -ms-transform: translateX(90px);
+    -o-transform: translateX(90px);
+    transform: translateX(90px);
+  }
+  
+  .no-js .pricing_switcher {
+    display: none;
+  }
+  
+  
+  .pricing_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pricing_column  {
+    flex: 1;
+  
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .pricing_column1{
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .pricing_column h2 {
+    font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: left;
+  }
+  .pricing_column1 h2 {
+    font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #6137DB;
+  }
+  
+  .pricing_column p {
+    font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+  }
+  .pricing_column1 p {
+    font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+  }
+  
+  .pricing_column .price {
+    font-family: 'DM Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+    color: #6137DB; /* Change color as needed */
+  }
+  .pricing_column1 .price {
+    font-family: 'DM Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+    color: #6137DB; /* Change color as needed */
+  }
+  .time{
+    font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+  }
+  .tick_list {
+    font-family: 'DM Sans', sans-serif; /* Choose your preferred font */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #333; /* Choose your preferred text color */
+  }
+  
+  .tick_item {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 35px; /* Adjust as needed for spacing */
+    color: #6137DB;
+  }
+  .tick_item1 {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 35px; /* Adjust as needed for spacing */
+    color: #ACA7BA;
+  }
+  
+  .tick_item::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    color: #6137DB; /* Custom color for the tick */
+    font-size: 20px; /* Adjust as needed for the size of the tick */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border: 1px solid #6137DB;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translateY(-50%);
+  }
+  .tick_item1::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    color: #ACA7BA; /* Custom color for the tick */
+    font-size: 20px; /* Adjust as needed for the size of the tick */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border: 1px solid #ACA7BA;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translateY(-50%);
+    
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  .FreepricingButton{
+    color: #6137DB;
+    background-color: #F0EDFC;
+    border-radius: 24px;
+    border: none;
+    padding: 5% 25% 5% 25%;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .switch_wrapper {
+    position: relative;
+    display: inline-flex;
+    padding: 4px;
+    border: 1px solid lightgrey;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    background: white;
+  }
+  
+  .switch_wrapper [type="radio"] {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  .switch_wrapper [type="radio"]:checked#monthly ~ label[for="monthly"],
+  .switch_wrapper [type="radio"]:checked#yearly ~ label[for="yearly"] {
+    color: white;
+  }
+  
+  .switch_wrapper [type="radio"]:checked#monthly ~ label[for="monthly"]:hover,
+  .switch_wrapper [type="radio"]:checked#yearly ~ label[for="yearly"]:hover {
+    background: transparent;
+  }
+  
+  .switch_wrapper
+    [type="radio"]:checked#monthly
+    + label[for="yearly"]
+    ~ .highlighter {
+    transform: none;
+  }
+  
+  .switch_wrapper
+    [type="radio"]:checked#yearly
+    + label[for="monthly"]
+    ~ .highlighter {
+    transform: translateX(100%);
+  }
+  
+  .switch_wrapper label {
+    font-size: 16px;
+    z-index: 1;
+    min-width: 100px;
+    line-height: 32px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: color 0.25s ease-in-out;
+  }
+  
+  .switch_wrapper label:hover {
+    background: var(--lightgray);
+  }
+  
+  .switch_wrapper .highlighter {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: calc(50% - 4px);
+    height: calc(100% - 8px);
+    border-radius: 30px;
+    background: darkgreen;
+    transition: transform 0.25s ease-in-out;
+  }

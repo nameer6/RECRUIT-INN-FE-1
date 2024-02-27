@@ -1,0 +1,20 @@
+.super{
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    height: 95%;
+}
+
+.editor{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.super .ql-toolbar .ql-snow {
+    border: none !important;
+}
+
+.super .ql-editor .ql-snow {
+    border: none !important;
+}

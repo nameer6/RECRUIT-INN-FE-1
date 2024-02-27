@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Poppins:wght@500&display=swap');
+
+.superContainer {
+    width: 95%;
+    font-family: "Poppins", sans-serif;
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.headingContainer img{
+    cursor: pointer;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #6137DB;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.headingContainer span {
+    background-color: #F0EDFC;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.jobsCard {
+    background-color: #fff;
+    height: 22%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topContainer {
+    display: flex;
+    width: 92%;
+    height: 28%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+
+.topContainer h3 {
+    margin: 0;
+}
+
+.rightTopBtns {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.rightTopBtns span {
+    color: #6137DB;
+    font-weight: 700;
+}
+
+
+.rightTopBtns img {
+    background-color: #F8F7FC;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.TechStack {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.TechStack ul {
+    display: flex;
+    justify-content: flex-start;
+    width: 92%;
+    list-style: none;
+    gap: 2rem;
+    padding: 0;
+}
+
+.TechStack ul li {
+    background-color: #F8F7FC;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#unique {
+    background-color: #2BA977;
+    border-radius: 50%;
+}
+
+.lowerContainer {
+    /* margin: 1rem; */
+    margin-bottom: 0.75rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowerContainer h4 {
+    margin: 0;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: #E7FFE0;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.jobsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tempContainer {
+    height: 17rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempContainer img {
+    padding-top: 1rem;
+}
+
+.tempContainer h3{
+    margin-bottom: 3rem
+}

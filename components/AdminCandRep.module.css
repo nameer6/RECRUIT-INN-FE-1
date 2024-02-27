@@ -1,0 +1,294 @@
+.superContainer {
+    width: 95%;
+    height: 100%;
+    background-color: #F8F7FC;
+    margin-bottom: 1rem;
+    font-family: "Poppins",sans-serif;
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.headingContainer img{
+    cursor: pointer;
+}
+
+.headingContainer span {
+    background-color: #F0EDFC;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+}
+    
+
+.reportsCard {
+    padding: 1rem 0rem;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftTop {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1rem;
+}
+
+.leftTop span {
+    font-size: 0.75rem;
+}
+
+.leftTop img {
+    background-color: #F8F7FC;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.basicInfo h4 {
+    margin: 0;
+}
+
+.topContainer {
+    width: 92%;
+}
+
+.rightTop span {
+    background-color: #E7FFE0;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.rightTop img{
+    background-color: #F8F7FC;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+.django{
+    background-color: #2BA977;
+    border-radius: 50%;
+}
+
+.techStack{
+    width: 92%;
+    margin-top: 1rem;
+    font-family: "Poppins",sans-serif;
+    height: auto;
+}
+
+.techStack ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.techStack ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F7FC;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+}
+
+.techStack ul li p {
+    margin: 0;
+}
+
+.basic{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center ;
+}
+
+
+.reportsCardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lowerContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 0.8rem;
+    color: #4A525D;
+}
+
+.lowerContainer span{
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.lowerContainer p{
+    margin: 0;
+    margin-top: 1rem;
+}   
+
+
+
+.temp{
+    height: 5%;
+    width: 25%;
+    display:  flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.reportsCard {
+    padding: 1rem 0rem;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.jobsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftTop {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1rem;
+}
+
+.leftTop span {
+    font-size: 0.75rem;
+}
+
+.leftTop img {
+    background-color: #F8F7FC;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.basicInfo h4 {
+    margin: 0;
+}
+
+.topContainer {
+    width: 92%;
+}
+
+.rightTop span {
+    background-color: #E7FFE0;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.rightTop img{
+    background-color: #F8F7FC;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+.django{
+    background-color: #2BA977;
+    border-radius: 50%;
+}
+
+.techStack{
+    width: 92%;
+    margin-top: 1rem;
+    font-family: "Poppins",sans-serif;
+}
+
+.techStack ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.techStack ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F7FC;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+}
+
+.techStack ul li p {
+    margin: 0;
+}
+
+.basic{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center ;
+}
+
+
+.reportsCardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lowerContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 0.8rem;
+    color: #4A525D;
+}
+
+.lowerContainer span{
+    font-weight: 700;
+}
+
+.lowerContainer p{
+    margin: 0;
+    margin-top: 1rem;
+}

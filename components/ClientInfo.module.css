@@ -1,0 +1,49 @@
+.superContainer{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.inputField{
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    width: 94%;
+    background-color: #fff;
+    border: 1px solid #989a9c;
+    gap: 0.5rem;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 1300px) {
+    .inputField{
+        padding: 0rem 0.5rem;
+    }
+}
+
+.inputField input{
+    border: none;
+    background-color: transparent;
+    color: #4A525D;
+    padding: 1rem 1rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.inputField select{
+    border: none;
+    background-color: transparent;
+    color: #4A525D;
+    padding: 1rem 1rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.inputField input:focus{
+    outline: none;
+}
+
+.inputField select:focus{
+    outline: none;
+}

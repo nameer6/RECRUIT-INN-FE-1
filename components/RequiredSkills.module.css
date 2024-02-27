@@ -1,0 +1,26 @@
+.superContainer {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listItem{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 18%;
+    margin-bottom: 1rem;
+    background-color: #F8F7FA;
+    padding: 1rem 0;
+    border-radius: 40px;
+    padding: 0 1rem;
+}   
+
+.techContainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;  
+}
