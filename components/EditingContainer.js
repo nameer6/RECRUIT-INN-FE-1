@@ -1,5 +1,4 @@
-
-
+import 'react-quill/dist/quill.snow.css';
 import styles from './EditingContainer.module.css';
 import 'react-quill/dist/quill.snow.css';
 import dynamic from 'next/dynamic';
